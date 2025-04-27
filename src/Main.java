@@ -1,6 +1,13 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle(2, 3, 4);
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        Rectangle rectangle = new Rectangle(a, b, c);
         System.out.println(rectangle.volume());
     }
 }
